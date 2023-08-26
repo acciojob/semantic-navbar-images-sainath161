@@ -1,2 +1,39 @@
 
 /* Your CSS Code here. */
+nav {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        /* Style the container for images */
+        .image-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        /* Style individual images */
+        .image {
+            margin: 10px;
+        }
